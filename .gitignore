@@ -169,3 +169,35 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Логи
+docker/logs/
+*.log
+
+# Конфигурации с чувствительными данными
+docker/config/*.yml
+
+# Файлы Docker
+docker/*.tar
+docker-compose.override.yml
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Кэш и файлы PyCharm
+.idea/
+*.iml
+
+# Папки виртуальных окружений
+venv/
+.env/
+
+# Сгенерированные файлы
+*.pyc
+*.pyo
+__pycache__/
+
+# Папки для сборки
+build/
+dist/
